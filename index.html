@@ -1,13 +1,22 @@
 <!DOCTYPE html>
 <html>
 
-<body>
-    <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-    </ul>
-    <p>Hello World</p>
-</body>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a>
+                <!-- NO CLOSING </li> HERE! -->
+                    <ul>
+                        <li><a href="#">Mission</a></li>
+                        <li><a href="#">Board</a></li>
+                    </ul>
+                </li> <!-- this is the closing </li> you were searching for -->
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    
+        <p>Hello World</p>
+    </body>
 
 </html>
