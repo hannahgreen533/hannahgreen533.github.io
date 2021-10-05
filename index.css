@@ -12,6 +12,8 @@ body {
 nav {
   font-family: Arial, sans-serif;
   font-size: 1.5rem;
+  width: 400px;
+  margin: 0 auto;
 }
 
 ul {
@@ -21,16 +23,27 @@ ul {
 }
 
 a {
-   display: block;
-   border-bottom: 1px dotted black;
-   text-align: center;
-   padding: 0.5rem;
-   background-color: tomato;
-   color: white;
-   text-decoration: none;
+  display: block;
+  border-bottom: 1px dotted black;
+  text-align: center;
+  padding: 0.5rem;
+  background-color: tomato;
+  color: white;
+  text-decoration: none;
 }
 
 a:hover {
   background-color: gold;
   color: #333;
+}
+
+li:first-child a {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+li:last-child a {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom: none;
 }
