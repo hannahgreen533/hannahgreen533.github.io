@@ -8,3 +8,29 @@ html {
 body {
   background-color: lightblue;
 }
+
+nav {
+  font-family: Arial, sans-serif;
+  font-size: 1.5rem;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+   display: block;
+   border-bottom: 1px dotted black;
+   text-align: center;
+   padding: 0.5rem;
+   background-color: tomato;
+   color: white;
+   text-decoration: none;
+}
+
+a:hover {
+  background-color: gold;
+  color: #333;
+}
